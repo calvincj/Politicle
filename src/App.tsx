@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Calvin Chen
+// This code is licensed under the MIT License (see LICENSE file for details).
+
 import { useState, useEffect } from 'react';
 import { loadCountryData } from './data/loadData';
 import type { CountryRow } from './data/loadData';
