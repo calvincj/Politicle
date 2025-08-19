@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Australia",
+        "id": "AUS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[113.0, -10.0], [154.0, -10.0], [154.0, -44.0], [113.0, -44.0], [113.0, -10.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Zealand",
+        "id": "NZL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[166.0, -34.0], [179.0, -34.0], [179.0, -47.0], [166.0, -47.0], [166.0, -34.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Papua New Guinea",
+        "id": "PNG"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[141.0, -1.0], [156.0, -1.0], [156.0, -12.0], [141.0, -12.0], [141.0, -1.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fiji",
+        "id": "FJI"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[177.0, -12.0], [-180.0, -12.0], [-180.0, -21.0], [177.0, -21.0], [177.0, -12.0]]]
+      }
+    }
+  ]
+}

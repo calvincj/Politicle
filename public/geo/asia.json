@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "China",
+        "id": "CHN"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.0, 54.0], [135.0, 54.0], [135.0, 18.0], [73.0, 18.0], [73.0, 54.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "India",
+        "id": "IND"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[68.0, 37.0], [97.0, 37.0], [97.0, 6.0], [68.0, 6.0], [68.0, 37.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Japan",
+        "id": "JPN"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[129.0, 46.0], [146.0, 46.0], [146.0, 30.0], [129.0, 30.0], [129.0, 46.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Russia",
+        "id": "RUS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[19.0, 82.0], [-169.0, 82.0], [-169.0, 41.0], [19.0, 41.0], [19.0, 82.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indonesia",
+        "id": "IDN"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[95.0, 6.0], [141.0, 6.0], [141.0, -11.0], [95.0, -11.0], [95.0, 6.0]]]
+      }
+    }
+  ]
+}
