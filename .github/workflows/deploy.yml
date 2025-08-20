@@ -1,5 +1,4 @@
 name: Deploy
-
 on:
   push:
     branches: [ main ]
@@ -20,22 +19,32 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: 'npm'
-          
+
       - name: Install dependencies
         run: npm ci
-        
+
       - name: Build
         run: npm run build
-        
+
+      - name: Add SPA fallback
+        run: cp dist/index.html dist/404.html
+
+      - name: Inspect dist
+        run: |
+          echo "--- DIST LIST ---"
+          ls -R dist
+          echo "--- INDEX.HTML ---"
+          sed -n '1,120p' dist/index.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
